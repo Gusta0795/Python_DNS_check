@@ -1,16 +1,16 @@
-# Python_DNS_check
-A python program to check a variety of DNS entries
+# Python_DNS_check  
+A python program to check a variety of DNS entries  
 
-1️⃣ Instalar as dependências
+1️⃣ Instalar as dependências  
 
-pip install PyQt6 dnspython
+pip install PyQt6 dnspython  
 
-* PyQt6: Para criar a interface gráfica
-* dnspython: Para fazer consultas DNS
+* PyQt6: To create graphical interface  
+* dnspython: To make DNS requests  
 
-2️⃣ Criar um protótipo da interface
+2️⃣ Create an interface prototype  
 
-Podemos usar o Qt Designer para montar o layout sem precisar codificar tudo na mão.
-Depois, convertemos o .ui para código Python com:
+Podemos usar o Qt Designer para montar o layout sem precisar codificar tudo na mão.  
+Depois, convertemos o .ui para código Python com:  
 
-pyuic6 layout.ui -o layout.py
+pyuic6 layout.ui -o layout.py  
